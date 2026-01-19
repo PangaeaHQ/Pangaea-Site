@@ -1454,3 +1454,57 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.875rem;
   color: var(--foreground);
 }
+
+.bg-darker { background-color: #0a0a0a; }
+
+.verification-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.verification-card {
+    padding: 2rem;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    position: relative;
+}
+
+.verification-step {
+    font-family: 'Geist Mono', monospace;
+    color: var(--accent);
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.verification-action {
+    margin-top: 1.5rem;
+    background: #000;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.verification-action code {
+    color: #00ff41; /* "Matrix" green for terminal feel */
+    font-family: 'Geist Mono', monospace;
+}
+
+.security-warning {
+    margin-top: 4rem;
+    padding: 2rem;
+    border: 1px solid var(--warning);
+    background: rgba(255, 171, 0, 0.05);
+}
+
+.warning-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--warning);
+    font-weight: 700;
+    font-family: 'Geist Mono', monospace;
+    margin-bottom: 1rem;
+}

@@ -68,8 +68,7 @@
 
                         <p class="hero-description">
                             Local-first coordination for small groups.<br /> Peer-to-peer messaging. Offline-first. No
-                            central
-                            control. <br />Designed to work
+                            central authority. <br />Designed to work
                             when infrastructure fails.
                         </p>
 
@@ -84,7 +83,7 @@
                                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                     </path>
                                 </svg>
-                                VIEW ON GITHUB
+                                View Protocol (Open Core)
                             </a>
                         </div>
 
@@ -423,7 +422,7 @@
                         <h3 class="trust-label">TRUST INDICATOR</h3>
                         <div class="trust-content">
                             <div class="trust-member">
-                                <div class="trust-avatar">JK</div>
+                                <div class="trust-avatar">npub...</div>
                                 <div class="trust-info">
                                     <div class="trust-name">Member</div>
                                     <div class="trust-cell">CELL-7A2F</div>
@@ -435,7 +434,7 @@
                                 <div class="score-label">commitments completed (last 30 days)</div>
                             </div>
                         </div>
-                        <div class="trust-footer">No lifetime scores. No leaderboards. Recent reliability only.</div>
+                        <div class="trust-footer">No lifetime scores. Contextual Reliability Only.</div>
                     </div>
                 </div>
             </section>
@@ -724,6 +723,63 @@
                 </div>
             </section>
 
+            <section class="section bg-darker border-top">
+                <div class="container">
+                    <div class="section-header">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            style="color: var(--accent);" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <h2 class="section-label">SURVIVAL-GRADE SECURITY</h2>
+                    </div>
+
+                    <p class="section-title">Coordination without a paper trail.</p>
+
+                    <div class="verification-grid">
+                        <div class="verification-card">
+                            <div class="verification-step">01</div>
+                            <h3>The Substrate: Auditable Core</h3>
+                            <p>Pangaea’s transport layer is an 1-to-1 fork of the Bitchat protocol. We utilize the
+                                <strong>Noise
+                                    Protocol Framework (Noise_XX_25519_ChaChaPoly_SHA256)</strong> to ensure that group
+                                coordination
+                                logic is never exposed to intermediate relay nodes.
+                            </p>
+                            <div class="verification-action">
+                                <code>git diff main..bitchat-upstream/main</code>
+                            </div>
+                        </div>
+
+                        <div class="verification-card">
+                            <div class="verification-step">02</div>
+                            <h3>Hardware: The "Dumb Pipe" Sidecar</h3>
+                            <p>The Sidecar bridge operates as a stateless relay. It extends the mesh range to 5 miles
+                                via LoRa but
+                                lacks the keys to decrypt the coordination events passing through it. Physical seizure
+                                of hardware
+                                yields zero group data.</p>
+                        </div>
+                    </div>
+
+                    <div class="security-warning">
+                        <div class="warning-header">
+                            <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                            PANIC PROTOCOL
+                        </div>
+                        <p>Pangaea inherits the <strong>Triple-Tap Emergency Wipe</strong> feature. In a high-risk
+                            encounter, three
+                            taps on the app logo instantly erases all local coordination data, task lists, and
+                            cryptographic
+                            identities.</p>
+                    </div>
+                </div>
+            </section>
+
             <!-- FOOTER -->
             <footer class="footer">
                 <div class="footer-cta">
@@ -749,7 +805,7 @@
                                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                     </path>
                                 </svg>
-                                VIEW ON GITHUB
+                                View Protocol (Open Core)
                             </a>
                         </div>
                     </div>
@@ -759,7 +815,7 @@
                     <div class="container footer-bar-inner">
                         <div class="footer-left">
                             <span class="logo">PANGAEA</span>
-                            <span class="muted">Protocol v0.1 // Open Source</span>
+                            <span class="muted">A Fork of Bitchat v1.5 // Open Core Protocol</span>
                         </div>
                         <div class="footer-right">
                             <a href="https://github.com/tshimegamolefe/Pangaea" class="footer-link"
@@ -770,7 +826,7 @@
                                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                     </path>
                                 </svg>
-                                Source
+                                View Protocol (Open Core)
                             </a>
                             <a href="https://apps.apple.com/us/app/bitchat-mesh/id6748219622" class="footer-link"
                                 id="ios-link-bottom">
