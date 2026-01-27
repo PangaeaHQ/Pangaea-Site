@@ -26,13 +26,13 @@ const inconsolata = Inconsolata({
 export const metadata: Metadata = {
   metadataBase: new URL("https://pangaea.dev"),
   title: {
-    default: "Pangaea — A Way Back to Each Other",
+    default: "Pangaea — Where humans are.",
     template: "%s — Pangaea",
   },
   description:
-    "A way back to each other. Pangaea helps neighbors, families, and communities reconnect through trust, privacy, and mutual aid—online or offline.",
+    "Where humans are. Pangaea helps neighbors, families, and communities reconnect through trust, privacy, and mutual aid—online or offline.",
   keywords: [
-    "a way back to each other",
+    "where humans are",
     "community connection",
     "local communities",
     "mutual aid",
@@ -50,24 +50,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://pangaea.dev",
     siteName: "Pangaea",
-    title: "Pangaea — A Way Back to Each Other",
+    title: "Pangaea — Where humans are.",
     description:
-      "When the world feels divided, we find strength in coming together. Pangaea reconnects people through genuine, local, private community.",
+      "Pangaea enables communication and coordination without relying on networks that can be shut down, monitored, or removed.",
     images: [
       {
-        url: "/a-way-back.png",
+        url: "/pangaea-xl.jpg",
         width: 1200,
         height: 630,
-        alt: "Pangaea — A Way Back to Each Other",
+        alt: "Pangaea — Where humans are.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pangaea — A Way Back to Each Other",
+    title: "Pangaea — Where humans are.",
     description:
-      "Building bridges, not walls. A private, community-first way to reconnect with the people around you.",
-    images: [ "/a-way-back.png" ],
+      "Pangaea enables communication and coordination without relying on networks that can be shut down, monitored, or removed.",
+    images: [ "/pangaea-xl.jpg" ],
   },
   robots: {
     index: true,
