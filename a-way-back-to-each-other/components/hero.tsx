@@ -42,7 +42,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8 mt-44 md:mt-72">
             <Button variant="warm" size="xl" asChild>
-              <a href="https://apps.apple.com/us/app/bitchat-mesh/id6748219622">
+              <a href="https://testflight.apple.com/join/taNp4PZg">
                 <Image
                   src="/android-chrome-512x512.png"
                   alt="Logo"
