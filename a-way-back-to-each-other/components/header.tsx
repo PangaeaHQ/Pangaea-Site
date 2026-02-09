@@ -30,7 +30,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="https://apps.apple.com/us/app/bitchat-mesh/id6748219622"
+          href="https://testflight.apple.com/join/taNp4PZg"
           className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors shadow-sm"
           target="_blank"
         >
